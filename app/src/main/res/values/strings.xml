@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+ <string name="app_name">Popular Movies</string>
+ <string name="action_settings">Settings</string>
+ <string name="title_activity_detail">Movie Details</string>
+ <string name="title_activity_settings">Settings</string>
+
+ <string name="action_share">Share</string>
+
+ <!--  Logging and Erros  -->
+
+ <string name="log_error">"Error "</string>
+ <string name="log_stream_close_error">Error closing movie reader stream</string>
+
+ <!-- TMDB Base URLs  -->
+
+ <string name="tmdb_base_url" translatable="false">http://api.themoviedb.org/3/discover/movie?</string>
+ <string name="tmdb_base_image_url" translatable="false">http://image.tmdb.org/t/p/w</string>
+
+ <!-- TMDB API Keys    -->
+
+ <string name="tmdb_results" translatable="false">results</string>
+ <string name="tmdb_poster_path" translatable="false">poster_path</string>
+ <string name="tmdb_overview" translatable="false">overview</string>
+ <string name="tmdb_release_date" translatable="false">release_date</string>
+ <string name="tmdb_id" translatable="false">id</string>
+ <string name="tmdb_title" translatable="false">title</string>
+ <string name="tmdb_vote_count" translatable="false">vote_count</string>
+ <string name="tmdb_vote_average" translatable="false">vote_average</string>
+ <string name="page">page</string>
+ <string name="tmdb_adult">adult</string>
+ <string name="tmdb_video">video</string>
+ <string name="tmdb_original_language">original_language</string>
+ <string name="tmdb_genre_ids">genre_ids</string>
+ <string name="tmdb_sort_by_key" translatable="false">sort_by</string>
+ <string name="tmdb_api_key_key" translatable="false">api_key</string>
+
+
+ <!-- Settings -->
+
+ <string name="pref_sort_order_label">Sort Order</string>
+ <string name="pref_sort_order_key" translatable="false">sort_order</string>
+
+ <string name="pref_vote_count_label">Total Number of Ratings Votes</string>
+ <string name="pref_vote_count_key">vote_count</string>
+
+ <string name="pref_period_label">Time Period</string>
+ <string name="pref_period_key">time_period</string>
+
+ <string name="pref_genres_label">Genre Filters</string>
+ <string name="pref_genre_ids_key">genre_ids</string>
+
+ <!-- Sorting IDs  -->
+
+ <string name="pref_sort_order_label_none">None</string>
+ <string name="pref_sort_order_label_most_popular">Most Popular</string>
+ <string name="pref_sort_order_label_highest_rated">Highest Rated</string>
+ <string name="pref_sort_order_label_latest_releases">Latest Releases</string>
+ <string name="pref_sort_order_label_highest_grossing">Highest Grossing</string>
+ <string name="pref_sort_order_label_primary_release_newest_first">Primary Releases, Newest First </string>
+ <string name="pref_sort_order_label_primary_release_oldest_first">Primary Releases, Oldest First</string>
+ <string name="pref_sort_order_label_original_title">Alphabetical</string>
+
+ <string name="pref_sort_order_none">none</string>
+ <string name="pref_sort_order_most_popular" translatable="false">popularity.desc</string>
+ <string name="pref_sort_order_highest_rated" translatable="false">vote_average.desc</string>
+ <string name="pref_sort_order_latest_releases">release_date.desc</string>
+ <string name="pref_sort_order_highest_grossing">revenue.desc</string>
+ <string name="pref_sort_order_primary_release_date_newest_first">primary_release_date.desc</string>
+ <string name="pref_sort_order_primary_release_date_oldest_first">primary_release_date.asc</string>
+ <string name="pref_sort_order_primary_original_title">original_title.asc</string>
+
+
+ <!--   Vote Count List Preference Entries -->
+
+ <string name="pref_vote_count_label_0">Zero or More Ratings Votes</string>
+ <string name="pref_vote_count_label_1">1 or More Ratings Votes</string>
+ <string name="pref_vote_count_label_10">10 or More Ratings Votes</string>
+ <string name="pref_vote_count_label_50">50 or More Ratings Votes</string>
+ <string name="pref_vote_count_label_100">100 or More Ratings Votes</string>
+ <string name="pref_vote_count_label_500">500 or More Ratings Votes</string>
+ <string name="pref_vote_count_label_1000">1000 or More Ratings Votes</string>
+ <string name="pref_vote_count_label_5000">5000 or More Ratings Votes</string>
+ <string name="pref_vote_count_value_0">0</string>
+ <string name="pref_vote_count_value_1">1</string>
+ <string name="pref_vote_count_value_10">10</string>
+ <string name="pref_vote_count_value_50">50</string>
+ <string name="pref_vote_count_value_100">100</string>
+ <string name="pref_vote_count_value_500">500</string>
+ <string name="pref_vote_count_value_1000">1000</string>
+ <string name="pref_vote_count_value_5000">5000</string>
+
+
+ <!-- Time Period Preference Entries  -->
+
+ <string name="pref_period_label_all">All (default)</string>
+ <string name="pref_period_label_this_entire_week">This Entire Week</string>
+ <string name="pref_period_label_this_entire_month">This Entire Month</string>
+ <string name="pref_period_label_this_year_to_date">This Year To Date</string>
+ <string name="pref_period_label_2010s">2010s</string>
+ <string name="pref_period_label_2000s">2000s</string>
+ <string name="pref_period_label_1990a">1990s</string>
+ <string name="pref_period_label_1980s">1980s</string>
+ <string name="pref_period_label_1970s">1970s</string>
+ <string name="pref_period_label_1960s">1960s</string>
+ <string name="pref_period_label_1950s">1950s</string>
+ <string name="pref_period_label_1940s">1940s</string>
+ <string name="pref_period_label_1930s">1930s</string>
+ <string name="pref_period_label_1920s">1920s</string>
+ <string name="pref_period_label_before_1920s">Before 1920s</string>
+ <string name="pref_period_label_next_week">Next Week</string>
+ <string name="pref_period_label_next_month">Next Month</string>
+ <string name="pref_period_label_next_year">Next Year</string>
+ <string name="pref_period_label_all_future">All Future Releases</string>
+
+ <string name="pref_period_value_all">all</string>
+ <string name="pref_period_value_this_entire_week">this_entire_week</string>
+ <string name="pref_period_value_this_entire_month">this_entire_month</string>
+ <string name="pref_period_value_this_year_to_date">this_year_to_date</string>
+ <string name="pref_period_value_2010s">2010</string>
+ <string name="pref_period_value_2000s">2000</string>
+ <string name="pref_period_value_1990a">1990</string>
+ <string name="pref_period_value_1980s">1980</string>
+ <string name="pref_period_value_1970s">1970</string>
+ <string name="pref_period_value_1960s">1960</string>
+ <string name="pref_period_value_1950s">1950</string>
+ <string name="pref_period_value_1940s">1940</string>
+ <string name="pref_period_value_1930s">1930</string>
+ <string name="pref_period_value_1920s">1920</string>
+ <string name="pref_period_value_before_1920s">before_1920</string>
+ <string name="pref_period_value_next_week">next_week</string>
+ <string name="pref_period_value_next_month">next_month</string>
+ <string name="pref_period_value_next_year">next_year</string>
+ <string name="pref_period_value_all_future">all_future_releases</string>
+
+
+ <string name="tmdb_image_size_185" translatable="false">185</string>
+ <string name="tmdb_image_size_342" translatable="false">342</string>
+ <string name="tmdb_image_size_500" translatable="false">500</string>
+ <string name="movie_details_vote_average">Average Rating\n</string>
+ <string name="movie_details_release_date">Release Date\n</string>
+ <string name="movie_review_content">content</string>
+
+
+ <string name="pref_data_source_label">Data Source</string>
+ <string name="pref_data_source_key">data_source</string>
+ <string name="pref_data_source_network">network</string>
+ <string name="you_tube_url">http://www.youtube.com/watch?v=</string>
+ <string name="out_of_ten">/10</string>
+
+</resources>

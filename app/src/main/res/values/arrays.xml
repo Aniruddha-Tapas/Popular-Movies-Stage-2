@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pref_sort_order_options">
+        <item>@string/pref_sort_order_label_none</item>
+        <item>@string/pref_sort_order_label_most_popular</item>
+        <item>@string/pref_sort_order_label_highest_rated</item>
+        <item>@string/pref_sort_order_label_latest_releases</item>
+        <item>@string/pref_sort_order_label_highest_grossing</item>
+        <item>@string/pref_sort_order_label_primary_release_newest_first</item>
+        <item>@string/pref_sort_order_label_primary_release_oldest_first</item>
+        <item>@string/pref_sort_order_label_original_title</item>
+    </string-array>
+
+    <string-array name="pref_sort_order_values">
+        <item>@string/pref_sort_order_none</item>
+        <item>@string/pref_sort_order_most_popular</item>
+        <item>@string/pref_sort_order_highest_rated</item>
+        <item>@string/pref_sort_order_latest_releases</item>
+        <item>@string/pref_sort_order_highest_grossing</item>
+        <item>@string/pref_sort_order_primary_release_date_newest_first</item>
+        <item>@string/pref_sort_order_primary_release_date_oldest_first</item>
+        <item>@string/pref_sort_order_primary_original_title</item>
+    </string-array>
+
+    <string-array name="pref_vote_count_options">
+        <item>@string/pref_vote_count_label_0</item>
+        <item>@string/pref_vote_count_label_1</item>
+        <item>@string/pref_vote_count_label_10</item>
+        <item>@string/pref_vote_count_label_50</item>
+        <item>@string/pref_vote_count_label_100</item>
+        <item>@string/pref_vote_count_label_500</item>
+        <item>@string/pref_vote_count_label_1000</item>
+        <item>@string/pref_vote_count_label_5000</item>
+    </string-array>
+
+    <string-array name="pref_vote_count_values">
+        <item>@string/pref_vote_count_value_0</item>
+        <item>@string/pref_vote_count_value_1</item>
+        <item>@string/pref_vote_count_value_10</item>
+        <item>@string/pref_vote_count_value_50</item>
+        <item>@string/pref_vote_count_value_100</item>
+        <item>@string/pref_vote_count_value_500</item>
+        <item>@string/pref_vote_count_value_1000</item>
+        <item>@string/pref_vote_count_value_5000</item>
+    </string-array>
+
+    <string-array name="pref_period_options">
+        <item>@string/pref_period_label_all</item>
+        <item>@string/pref_period_label_this_entire_week</item>
+        <item>@string/pref_period_label_this_entire_month</item>
+        <item>@string/pref_period_label_this_year_to_date</item>
+        <item>@string/pref_period_label_2010s</item>
+        <item>@string/pref_period_label_2000s</item>
+        <item>@string/pref_period_label_1990a</item>
+        <item>@string/pref_period_label_1980s</item>
+        <item>@string/pref_period_label_1970s</item>
+        <item>@string/pref_period_label_1960s</item>
+        <item>@string/pref_period_label_1950s</item>
+        <item>@string/pref_period_label_1940s</item>
+        <item>@string/pref_period_label_1930s</item>
+        <item>@string/pref_period_label_1920s</item>
+        <item>@string/pref_period_label_before_1920s</item>
+        <item>@string/pref_period_label_next_week</item>
+        <item>@string/pref_period_label_next_month</item>
+        <item>@string/pref_period_label_next_year</item>
+        <item>@string/pref_period_label_all_future</item>
+    </string-array>
+
+    <string-array name="pref_period_values">
+        <item>@string/pref_period_value_all</item>
+        <item>@string/pref_period_value_this_entire_week</item>
+        <item>@string/pref_period_value_this_entire_month</item>
+        <item>@string/pref_period_value_this_year_to_date</item>
+        <item>@string/pref_period_value_2010s</item>
+        <item>@string/pref_period_value_2000s</item>
+        <item>@string/pref_period_value_1990a</item>
+        <item>@string/pref_period_value_1980s</item>
+        <item>@string/pref_period_value_1970s</item>
+        <item>@string/pref_period_value_1960s</item>
+        <item>@string/pref_period_value_1950s</item>
+        <item>@string/pref_period_value_1940s</item>
+        <item>@string/pref_period_value_1930s</item>
+        <item>@string/pref_period_value_1920s</item>
+        <item>@string/pref_period_value_before_1920s</item>
+        <item>@string/pref_period_value_next_week</item>
+        <item>@string/pref_period_value_next_month</item>
+        <item>@string/pref_period_value_next_year</item>
+        <item>@string/pref_period_value_all_future</item>
+    </string-array>
+
+    <string-array name="pref_genres_options">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Crime</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Family</item>
+        <item>Fantasy</item>
+        <item>Foreign</item>
+        <item>History</item>
+        <item>Horror</item>
+        <item>Music</item>
+        <item>Mystery</item>
+        <item>Romance</item>
+        <item>Science Fiction</item>
+        <item>TV Movie</item>
+        <item>Thriller</item>
+        <item>War</item>
+        <item>Western</item>
+    </string-array>
+
+    <string-array name="pref_genres_values">
+        <item>28</item>
+        <item>12</item>
+        <item>16</item>
+        <item>35</item>
+        <item>80</item>
+        <item>99</item>
+        <item>18</item>
+        <item>10751</item>
+        <item>14</item>
+        <item>10769</item>
+        <item>36</item>
+        <item>27</item>
+        <item>10402</item>
+        <item>9648</item>
+        <item>10749</item>
+        <item>878</item>
+        <item>10770</item>
+        <item>53</item>
+        <item>10752</item>
+        <item>37</item>
+    </string-array>
+
+    <string-array name="default_genres">
+        <item>28</item>
+        <item>12</item>
+        <item>16</item>
+        <item>35</item>
+        <item>80</item>
+        <item>99</item>
+        <item>18</item>
+        <item>10751</item>
+        <item>14</item>
+        <item>10769</item>
+        <item>36</item>
+        <item>27</item>
+        <item>10402</item>
+        <item>9648</item>
+        <item>10749</item>
+        <item>878</item>
+        <item>10770</item>
+        <item>53</item>
+        <item>10752</item>
+        <item>37</item>
+    </string-array>
+
+
+    <string-array name="empty_array"/>
+
+
+    <string-array name="pref_data_source_options">
+        <item>"themoviedb.org web site"</item>
+        <item>"Local Cache</item>
+        <item>"Favorites List"</item>
+    </string-array>
+
+    <string-array name="pref_data_source_values">
+        <item>"network"</item>
+        <item>"cache"</item>
+        <item>"favorite"</item>
+    </string-array>
+</resources>

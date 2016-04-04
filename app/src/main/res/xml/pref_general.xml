@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        android:title="@string/pref_data_source_label"
+        android:key="@string/pref_data_source_key"
+        android:defaultValue="@string/pref_data_source_network"
+        android:entryValues="@array/pref_data_source_values"
+        android:entries="@array/pref_data_source_options" />
+
+    <ListPreference
+        android:title="@string/pref_sort_order_label"
+        android:key="@string/pref_sort_order_key"
+        android:defaultValue="@string/pref_sort_order_most_popular"
+        android:entryValues="@array/pref_sort_order_values"
+        android:entries="@array/pref_sort_order_options" />
+
+    <ListPreference
+        android:title="@string/pref_vote_count_label"
+        android:key="@string/pref_vote_count_key"
+        android:defaultValue="0"
+        android:entryValues="@array/pref_vote_count_values"
+        android:entries="@array/pref_vote_count_options" />
+
+    <ListPreference
+        android:title="@string/pref_period_label"
+        android:key="@string/pref_period_key"
+        android:defaultValue="all"
+        android:entryValues="@array/pref_period_values"
+        android:entries="@array/pref_period_options" />
+
+
+    <MultiSelectListPreference
+        android:dialogTitle="@string/pref_genres_label"
+        android:entries="@array/pref_genres_options"
+        android:entryValues="@array/pref_genres_values"
+        android:key="@string/pref_genre_ids_key"
+        android:summary=""
+        android:defaultValue="@array/empty_array"
+        android:title="@string/pref_genres_label"
+        />
+
+    <com.example.android.popularmovies.app.RestoreDefaultPreferences
+        android:dialogMessage="Restore values to their defaults?"
+        android:key="resetDialog"
+        android:negativeButtonText="No, KEEP current values"
+        android:persistent="false"
+        android:positiveButtonText="Yes, RESET all values"
+        android:summary="Restore all settings to default values"
+        android:title="Reset to default" >
+    </com.example.android.popularmovies.app.RestoreDefaultPreferences>
+
+ </PreferenceScreen>
